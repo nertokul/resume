@@ -1,0 +1,20 @@
+/* General Styles */
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 10px; /* Added padding to all sides */
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #212529;
+    max-width: 900px; /* Optional: To limit the width of the body */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
+    border-radius: 8px; /* Optional: Add rounded corners */
+}
